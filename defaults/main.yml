@@ -1,0 +1,9 @@
+---
+pushgateway_functions_version: "1-latest"
+
+pushgateway_functions_files:
+  - name: pushgateway-functions.sh
+    url: https://oss.help/scripts/pushgateway/pushgateway-functions/{{ pushgateway_functions_version }}/pushgateway-functions.sh
+    chksum: "sha256:https://oss.help/scripts/pushgateway/pushgateway-functions/{{ pushgateway_functions_version }}/SHA256SUMS"
+    dst_dir: /usr/local/include/osshelp
+    mode: 600
